@@ -1,0 +1,12 @@
+ListID,ListName,SourceType,PurchaseDate,PurchaseCost
+L01,LinkedIn scrape - FinServ | Batch A (Jan),LinkedIn_FinServ,2025-01-02,1200
+L02,LinkedIn scrape - FinServ | Batch B (Feb),LinkedIn_FinServ,2025-02-14,1200
+L03,Purchased DB - Ecom EU | Batch A (Dec 24),Purchased_EcomEU,2024-12-02,1800
+L04,Purchased DB - Ecom EU | Batch B (Feb),Purchased_EcomEU,2025-02-21,1800
+L05,Referral / network,Referral,2025-01-02,250
+L06,Job-change trigger | Batch A (Jan),JobChange,2025-01-02,900
+L07,Job-change trigger | Batch B (Mar),JobChange,2025-03-03,900
+L08,Inbound webinar | Batch A (Jan),Webinar,2025-01-02,600
+L09,Inbound webinar | Batch B (Feb),Webinar,2025-02-28,600
+L10,Recycled 2024 | Batch A (Jun 24),Recycled2024,2024-06-10,2500
+L11,Recycled 2024 | Batch B (Aug 24),Recycled2024,2024-08-19,2500

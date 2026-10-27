@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+~$*
+*.pyc
+docs/cold-email-copy.md
+docs/loom-script.md
+docs/github-readme-draft.md
+docs/launch-checklist.md
+docs/step1-model-setup.md
+docs/step3-4-measures-and-pages.md

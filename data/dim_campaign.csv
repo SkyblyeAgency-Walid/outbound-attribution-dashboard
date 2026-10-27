@@ -1,0 +1,7 @@
+CampaignID,CampaignName,Segment
+C01,FinServ Outbound - LinkedIn scrape,FinServ 51-1000
+C02,Ecom EU - purchased DB,Ecom EU 11-200
+C03,Referral & network follow-up,Warm network
+C04,Job-change trigger,ICP movers
+C05,Inbound webinar follow-up,Webinar attendees
+C06,2024 recycled re-engagement,Cold 2024 base
