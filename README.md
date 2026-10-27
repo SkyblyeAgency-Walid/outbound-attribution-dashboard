@@ -24,7 +24,7 @@ worked," but "which list buys are worth repeating."
 | Which sources earn budget? | Quality Score 0-100: **2 SCALE / 2 REPAIR / 2 RETIRE** |
 | Why do lists stop working? | Reply rate decays **7.6% -> 1.7%** by list age; lists past 60 days drive **84% of bounces** |
 
-## The five pages
+## The four pages
 
 | Page | Verdict on the cover |
 |------|---------------------|
@@ -38,7 +38,7 @@ worked," but "which list buys are worth repeating."
   <img src="screenshots/cost.png" width="49%" alt="Page 3 - Cost per closed deal by source">
 </p>
 <p align="center">
-  <img src="screenshots/decay.png" width="49%" alt="Page 4 - List-age decay and deliverability">
+  <img src="screenshots/decay.png" width="100%" alt="Page 4 - List-age decay and deliverability">
 </p>
 
 ## The numbers behind the verdicts
@@ -74,9 +74,7 @@ Page 4's decay story, with batch health as the receipt: reply rate falls from
 passes 60 days - while aged lists account for 84% of all bounces and one source
 (Recycled 2024) alone produces 79% of them.
 
-<p align="center">
-  <img src="screenshots/batch-table.png" width="49%" alt="Batch health table - Recycled rows">
-</p>
+![Page 4 - Decay](screenshots/batch-table.png)
 
 ## How it's built
 
@@ -95,9 +93,7 @@ dim_date --1:*-- fact_sends *:1-- dim_list
                                   |     (multi-hop: sends -> prospect -> meetings)
                              dim_campaign
 ```
-<p align="center">
-  <img src="screenshots/model.png" width="49%" alt="Schema">
-</p>
+![Page 0 - Modal](screenshots/model.png)
 
 - `fact_replies` joins to `fact_sends` on `SendID`.
 - Closed revenue filters back to list sources through
